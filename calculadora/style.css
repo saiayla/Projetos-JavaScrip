@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#calculadora {
+  border: 1px black solid;
+  border-radius: 3px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#calculadora input {
+  margin: 5px;
+  padding: 10px;
+}
+
+#titulo {
+  display: flex;
+  padding: 10px;
+  background-color: #d99ff4;
+  border-radius: 3px;
+  text-align: center;
+  justify-content: center;
+}
+
+#operacoes {
+  display: flex;
+  padding: 10px;
+}
+
+#numeros {
+  display: grid;
+  width: 60%;
+  grid-template-columns: 3fr 3fr 3fr;
+}
+
+#simbolos {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+#numeros button,
+#simbolos button {
+  border: 1px black solid;
+  padding: 10px;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  background-color: #8fb2ea;
+  width: 85%;
+}
