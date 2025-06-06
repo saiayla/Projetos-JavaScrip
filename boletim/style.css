@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boletim {
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+}
+
+#boletim h1 {
+  text-align: center;
+}
+
+#notas{
+  border-top: 1px solid black;
+  display: flex;  
+  flex-direction: column;
+}
+
+#notas div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#calcular {
+  align-self: center;
+}
